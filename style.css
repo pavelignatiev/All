@@ -1,0 +1,123 @@
+.container {
+    width: 1280px;
+    margin: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#CDCDCD;
+    color: white;
+
+    width: 1200px;
+    height: 60px;
+    top: 30px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.Title {
+    width: 184px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+
+    /*styleName: logo_title;*/
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    background: #F1CDB3;
+
+}
+.Subtitle {
+   
+    width: 179px;
+    height: 15px;
+    top: 45px;
+    left: 4px;
+    gap: 0px;
+    opacity: 0px;
+
+    /*styleName: logo_subtitle;*/
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.95px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    background: #FFFFFF;
+
+
+
+}
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    background-color: #CDCDCD;
+    width: 443px;
+    height: 27px;
+    top: 16px;
+    left: 757px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.link, .link_active {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007BFF; /* A standard blue color for links */
+}
+.link {
+    display: flex;
+    list-style-type: none;
+    width: Hug (106px)px;
+    height: Hug (24px)px;
+    top: 16px;
+    left: 999px;
+    gap: 10px;
+    opacity: 0px;
+    background: #CDCDCD;
+    /*styleName: paragraph-l;*/
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.link:hover, .active-link:hover {
+    text-decoration: underline;
+}
+
+.link_active {
+    width: Hug (114px)px;
+    height: Hug (27px)px;
+    top: 16px;
+    left: 757px;
+    gap: 0px;
+    opacity: 0px;
+    //styleName: paragraph-l;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.header-links-list li {
+    margin-right: 10px;
+}
+
+.header-links-list li:last-child {
+    margin-right: 0;
+}
+.header_content {
+    flex-grow: 1;
+}
